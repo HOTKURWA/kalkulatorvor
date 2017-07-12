@@ -6,14 +6,14 @@ namespace Kalkulator.Tests.TwoArg
     [TestFixture]
     public class ХtoThePowerYTests
     {
-        [Test]
-        public void ХtoThePowerYTest()
+        [TestCase(2, 2, 4)]
+        [TestCase(4, -1, 0.25)]
+        [TestCase(4, 0.5, 2)]
+        public void ХtoThePowerYTest(double first, double second, double expected)
         {
             var calc = new ХtoThePowerY();
-            double first = 2;
-            double second = 2;
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(4, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

@@ -6,13 +6,14 @@ namespace Kalkulator.Tests.OneArg
     [TestFixture]
     public class TenToThePowerXTests
     {
-        [Test]
-        public void TenToThePowerXTest()
+        [TestCase(0, 0, 1)]
+        [TestCase(2, 0, 100)]
+        [TestCase(-1, 0, 0.1)]
+        public void TenToThePowerXTest(double first, double expected)
         {
             var calc = new TenToThePowerX();
-            double first = 2;
             double result = calc.Calculate(first);
-            Assert.AreEqual(100, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

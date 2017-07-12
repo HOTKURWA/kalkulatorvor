@@ -6,14 +6,14 @@ namespace Kalkulator.Tests.TwoArg
     [TestFixture]
     public class AdditionTests
     {
-        [Test]
-        public void AdditionTest()
+        [TestCase(2, 2, 4)]
+        [TestCase(2, 4, 6)]
+        [TestCase(2, -5, -3)]
+        public void AdditionTest(double first, double second, double expected)
         {
-            var calc=new Addition();
-            double first = 2;
-            double second = 2;
+            var calc = new Addition();
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(4,result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

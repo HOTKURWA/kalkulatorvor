@@ -6,14 +6,15 @@ namespace Kalkulator.Tests.TwoArg
     [TestFixture]
     public class MaxXYTests
     {
-        [Test]
-        public void MaxXYTest()
+        [TestCase(5, 2, 5)]
+        [TestCase(1, 6, 6)]
+        [TestCase(-1, -3, -1)]
+        public void MaxXYTest(double first, double second, double expected)
         {
             var calc = new MaxXY();
-            double first = 31;
-            double second = 2;
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(31, result);
+            Assert.AreEqual(expected, result);
         }
+
     }
 }

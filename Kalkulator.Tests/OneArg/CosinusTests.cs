@@ -6,13 +6,14 @@ namespace Kalkulator.Tests.OneArg
     [TestFixture]
     public class CosinusTests
     {
-        [Test]
-        public void CosinusTest()
+        [TestCase(0, 0, 1 )]
+        [TestCase(60, 0, -0.9524129804)]
+        [TestCase(3, 0, -0.9899924966)]
+        public void CosinusTest(double first, double expected)
         {
             var calc = new Cosinus();
-            double first = 0;
             double result = calc.Calculate(first);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(expected, result);
         }
     }
 }

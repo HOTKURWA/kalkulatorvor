@@ -6,13 +6,15 @@ namespace Kalkulator.Tests.TwoArg
     [TestFixture]
     public class MultiplyTests
     {
-        [Test] public void MulyiplyTest()
+        [TestCase(2, 2, 4)]
+        [TestCase(3, -4, -12)]
+        [TestCase(0, 2, 0)]
+        public void MultiplyTest(double first, double second, double expected)
         {
             var calc = new Multiply();
-            double first = 2;
-            double second = 3;
             double result = calc.Calculate(first, second);
-            Assert.AreEqual(6, result);
+            Assert.AreEqual(expected, result);
         }
+
     }
 }
