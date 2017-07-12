@@ -6,7 +6,7 @@ namespace Kalkulator.OneArg
     {
         public double Calculate(double first)
         {
-            return Math.Pow(2.71828182845, first);
+            return Math.Exp(first);
         }
     }
 }

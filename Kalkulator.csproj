@@ -66,9 +66,9 @@
     <Compile Include="TwoArg\Subtraction.cs" />
     <Compile Include="OneArg\Tangens.cs" />
     <Compile Include="TwoArg\TwoArgumentsCalculatorsFactory.cs" />
-    <Compile Include="OneArg\TwoToThePowerX.cs" />
+    <Compile Include="OneArg\TenToThePowerX.cs" />
     <Compile Include="TwoArg\Xpow1dY.cs" />
-    <Compile Include="OneArg\XtoThePowerTwo.cs" />
+    <Compile Include="OneArg\ExptoThePowerX.cs" />
     <Compile Include="TwoArg\ХtoThePowerY.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

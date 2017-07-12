@@ -51,14 +51,14 @@
             // 
             this.input1.Location = new System.Drawing.Point(12, 12);
             this.input1.Name = "input1";
-            this.input1.Size = new System.Drawing.Size(154, 20);
+            this.input1.Size = new System.Drawing.Size(135, 20);
             this.input1.TabIndex = 0;
             // 
             // input2
             // 
             this.input2.Location = new System.Drawing.Point(12, 38);
             this.input2.Name = "input2";
-            this.input2.Size = new System.Drawing.Size(154, 20);
+            this.input2.Size = new System.Drawing.Size(135, 20);
             this.input2.TabIndex = 1;
             // 
             // Sum
@@ -115,7 +115,7 @@
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 7;
-            this.Sin.Text = "Sin(x)";
+            this.Sin.Text = "Sin";
             this.Sin.UseVisualStyleBackColor = true;
             this.Sin.Click += new System.EventHandler(this.OneButton_Click);
             // 
@@ -125,23 +125,23 @@
             this.Cos.Name = "Cos";
             this.Cos.Size = new System.Drawing.Size(75, 23);
             this.Cos.TabIndex = 8;
-            this.Cos.Text = "Cos(x)";
+            this.Cos.Text = "Cos";
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.OneButton_Click);
             // 
             // Tan
             // 
-            this.Tan.Location = new System.Drawing.Point(173, 168);
+            this.Tan.Location = new System.Drawing.Point(173, 167);
             this.Tan.Name = "Tan";
             this.Tan.Size = new System.Drawing.Size(75, 23);
             this.Tan.TabIndex = 9;
-            this.Tan.Text = "Tan(x)";
+            this.Tan.Text = "Tan";
             this.Tan.UseVisualStyleBackColor = true;
             this.Tan.Click += new System.EventHandler(this.OneButton_Click);
             // 
             // ExpPowX
             // 
-            this.ExpPowX.Location = new System.Drawing.Point(91, 197);
+            this.ExpPowX.Location = new System.Drawing.Point(92, 196);
             this.ExpPowX.Name = "ExpPowX";
             this.ExpPowX.Size = new System.Drawing.Size(75, 23);
             this.ExpPowX.TabIndex = 10;
@@ -161,7 +161,7 @@
             // 
             // XpowY
             // 
-            this.XpowY.Location = new System.Drawing.Point(173, 226);
+            this.XpowY.Location = new System.Drawing.Point(12, 253);
             this.XpowY.Name = "XpowY";
             this.XpowY.Size = new System.Drawing.Size(75, 23);
             this.XpowY.TabIndex = 12;
@@ -171,7 +171,7 @@
             // 
             // XpowOneDevY
             // 
-            this.XpowOneDevY.Location = new System.Drawing.Point(12, 226);
+            this.XpowOneDevY.Location = new System.Drawing.Point(93, 253);
             this.XpowOneDevY.Name = "XpowOneDevY";
             this.XpowOneDevY.Size = new System.Drawing.Size(75, 23);
             this.XpowOneDevY.TabIndex = 13;
@@ -181,7 +181,7 @@
             // 
             // LogXfromY
             // 
-            this.LogXfromY.Location = new System.Drawing.Point(93, 226);
+            this.LogXfromY.Location = new System.Drawing.Point(174, 253);
             this.LogXfromY.Name = "LogXfromY";
             this.LogXfromY.Size = new System.Drawing.Size(75, 23);
             this.LogXfromY.TabIndex = 14;
@@ -191,21 +191,21 @@
             // 
             // MinXY
             // 
-            this.MinXY.Location = new System.Drawing.Point(12, 255);
+            this.MinXY.Location = new System.Drawing.Point(12, 282);
             this.MinXY.Name = "MinXY";
             this.MinXY.Size = new System.Drawing.Size(75, 23);
             this.MinXY.TabIndex = 15;
-            this.MinXY.Text = "Min(x,y)";
+            this.MinXY.Text = "min(x,y)";
             this.MinXY.UseVisualStyleBackColor = true;
             this.MinXY.Click += new System.EventHandler(this.Button_Click);
             // 
             // MaxXY
             // 
-            this.MaxXY.Location = new System.Drawing.Point(93, 255);
+            this.MaxXY.Location = new System.Drawing.Point(93, 282);
             this.MaxXY.Name = "MaxXY";
             this.MaxXY.Size = new System.Drawing.Size(75, 23);
             this.MaxXY.TabIndex = 16;
-            this.MaxXY.Text = "Max(x,y)";
+            this.MaxXY.Text = "max(x,y)";
             this.MaxXY.UseVisualStyleBackColor = true;
             this.MaxXY.Click += new System.EventHandler(this.Button_Click);
             // 
@@ -232,7 +232,7 @@
             this.Controls.Add(this.input2);
             this.Controls.Add(this.input1);
             this.Name = "Form1";
-            this.Text = "Kalkulatorvor";
+            this.Text = "Kalkulator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
