@@ -10,7 +10,11 @@ namespace Kalkulator
         public double Calculate(double first, double second)
         {
             if (first > second) return first;
+<<<<<<< HEAD
             else return second;
+=======
+            else return first;
+>>>>>>> d7d00b8a094d42f55c7e6092c41466896aabcd94
         }
     }
 }
