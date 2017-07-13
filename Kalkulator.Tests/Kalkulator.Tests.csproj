@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="OneArg\CosinusTests.cs" />
     <Compile Include="OneArg\ExptoThePowerXTests.cs" />
+    <Compile Include="OneArg\OneArgumentsCalculatorsFactoryTests.cs" />
     <Compile Include="OneArg\SinusTests.cs" />
     <Compile Include="OneArg\TangensTests.cs" />
     <Compile Include="OneArg\TenToThePowerXTests.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="TwoArg\MinXYTests.cs" />
     <Compile Include="TwoArg\MultiplyTests.cs" />
     <Compile Include="TwoArg\SubtractionTests.cs" />
+    <Compile Include="TwoArg\TwoArgumentsCalculatorsFactoryTests.cs" />
     <Compile Include="TwoArg\Xpow1dYTests.cs" />
     <Compile Include="TwoArg\ХtoThePowerYTests.cs" />
   </ItemGroup>
