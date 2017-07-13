@@ -7,7 +7,7 @@ namespace Kalkulator.TwoArg
 
         public double Calculate(double first, double second)
         {
-            if ((second < 0)||(first == 1)||(first < 0))
+            if ((second < 0)||(first == 1)||(first <= 0))
             {
                 throw new Exception("Такого логорифма нет");
             }
