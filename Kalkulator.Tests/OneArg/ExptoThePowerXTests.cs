@@ -6,9 +6,9 @@ namespace Kalkulator.Tests.OneArg
     [TestFixture]
     public class ExptoThePowerXTests
     {
-        [TestCase(0, 0, 1)]
-        [TestCase(2, 0, 7.38906)]
-        [TestCase(1, 0, 2.71828)]
+        [TestCase(0, 1)]
+        [TestCase(2, 7.3890560989306504)]
+        [TestCase(1, 2.7182818284590451)]
         public void ExptoThePowerXTest(double first, double expected)
         {
             var calc = new ExptoThePowerX();
